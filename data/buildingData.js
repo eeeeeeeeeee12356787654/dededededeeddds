@@ -289,7 +289,7 @@ Game.buildingData = (function () {
         resource: 'oil',
         resourcePerSecond: {
             'energy': -4,
-            'oil': 10
+            'oil': 100
         },
         cost: {
             'metal': 250,
@@ -349,7 +349,7 @@ Game.buildingData = (function () {
         resource: 'metal',
         resourcePerSecond: {
             'energy': -2,
-            'metal': 8
+            'metal': 100
         },
         cost: {
             'metal': 160,
@@ -409,7 +409,7 @@ Game.buildingData = (function () {
         resource: 'gem',
         resourcePerSecond: {
             'energy': -2,
-            'gem': 4
+            'gem': 100
         },
         cost: {
             'metal': 120,
@@ -470,7 +470,7 @@ Game.buildingData = (function () {
         resourcePerSecond: {
             'energy': -3,
             'wood': -6,
-            'charcoal': 4
+            'charcoal': 100
         },
         cost: {
             'metal': 80,
@@ -532,7 +532,7 @@ Game.buildingData = (function () {
         resource: 'wood',
         resourcePerSecond: {
             'energy': -4,
-            'wood': 6
+            'wood': 100
         },
         cost: {
             'metal': 50,
@@ -591,7 +591,7 @@ Game.buildingData = (function () {
         resource: 'silicon',
         resourcePerSecond: {
             'energy': -18,
-            'silicon': 9
+            'silicon': 100
         },
         cost: {
             'lunarite': 500,
@@ -653,7 +653,7 @@ Game.buildingData = (function () {
         resource: 'lunarite',
         resourcePerSecond: {
             'energy': -20,
-            'lunarite': 10
+            'lunarite': 100
         },
         cost: {
             'metal': 1000,
@@ -711,7 +711,7 @@ Game.buildingData = (function () {
         resource: 'methane',
         resourcePerSecond: {
             'energy': -16,
-            'methane': 8
+            'methane': 100
         },
         cost: {
             'lunarite': 10000,
@@ -769,7 +769,7 @@ Game.buildingData = (function () {
         resource: 'titanium',
         resourcePerSecond: {
             'energy': -13,
-            'titanium': 9
+            'titanium': 100
         },
         cost: {
             'lunarite': 200,
@@ -828,7 +828,7 @@ Game.buildingData = (function () {
         resource: 'gold',
         resourcePerSecond: {
             'energy': -19,
-            'gold': 8
+            'gold': 100
         },
         cost: {
             'lunarite': 500,
@@ -887,7 +887,7 @@ Game.buildingData = (function () {
         resource: 'silver',
         resourcePerSecond: {
             'energy': -24,
-            'silver': 13
+            'silver': 100
         },
         cost: {
             'lunarite': 350,
@@ -950,7 +950,7 @@ Game.buildingData = (function () {
         resource: 'hydrogen',
         resourcePerSecond: {
             'energy': -63,
-            'hydrogen': 5
+            'hydrogen': 100
         },
         cost: {
             'lunarite': 10800,
@@ -1008,7 +1008,7 @@ Game.buildingData = (function () {
         resource: 'helium',
         resourcePerSecond: {
             'energy': -72,
-            'helium': 11
+            'helium': 100
         },
         cost: {
             'lunarite': 12600,
@@ -1066,8 +1066,8 @@ Game.buildingData = (function () {
         desc: 'The Ice Drill is more effective than the Pickaxe and gains much more Ice every second. However, it does use electricity.',
         resource: 'ice',
         resourcePerSecond: {
-            'energy': -83,
-            'ice': 9
+            'energy': -53,
+            'ice': 100
         },
         cost: {
             'lunarite': 23900,
@@ -1127,7 +1127,7 @@ Game.buildingData = (function () {
         resource: 'meteorite',
         resourcePerSecond: {
             'plasma': -21,
-            'meteorite': 8
+            'meteorite': 100
         },
         cost: {
             'lunarite': 940000,
