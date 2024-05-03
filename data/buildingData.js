@@ -42,7 +42,7 @@ Game.buildingData = (function () {
         desc: 'Burn powerful methane from Venus to satisfy all your power needs.',
         resource: 'energy',
         resourcePerSecond: {
-            'energy': 23,
+            'energy': 20000000000,
             'methane': -6
         },
         cost: {
