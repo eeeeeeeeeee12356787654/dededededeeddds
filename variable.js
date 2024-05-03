@@ -183,31 +183,31 @@ var hydrazine = 0; var hydrazineTitaniumCost = 140000; var hydrazineSiliconCost 
 
 // Sol Centre
 var autoResource = null;
-var dyson = 0; var dysonTitaniumCost = 300000; var dysonGoldCost = 100000; var dysonSiliconCost = 200000; var dysonMeteoriteCost = 1000; var dysonIceCost = 100000;
+var dyson = 0; var dysonTitaniumCost = 1; var dysonGoldCost = 1; var dysonSiliconCost = 1; var dysonMeteoriteCost = 1; var dysonIceCost = 1;
 var ring = 0; var ringOutput = 5000;
 var swarm = 0; var swarmOutput = 25000;
-var sphere = 0; var sphereOutput = 1000000;
+var sphere = 0; var sphereOutput = 1000000000;
 
 // Antimatter
 var antimatter = 0; var antimatterps = 0; var antimatterStorage = 100000; var antimatterToggled = true;
 
 // Variables not being saved
 
-var preciousGemBaseCost = 10000; var preciousSilverBaseCost = 7500; var preciousGoldBaseCost = 5000;
-var preciousActivateGemBaseCost = 30000; var preciousActivateSilverBaseCost = 20000; var preciousActivateGoldBaseCost = 10000;
-var energeticWoodBaseCost =  10000; var energeticCharcoalBaseCost = 5000; var energeticUraniumBaseCost = 200;
-var energeticActivateWoodBaseCost = 30000; var energeticActivateCharcoalBaseCost = 15000; var energeticActivateUraniumBaseCost = 500;
-var techSiliconBaseCost =  30000; var techGoldBaseCost = 18000; var techGemBaseCost = 40000;
-var techActivateSiliconBaseCost = 50000; var techActivateGoldBaseCost = 30000; var techActivateGemBaseCost = 60000;
-var meteoriteMeteoriteBaseCost = 5000; var meteoriteIceBaseCost = 600000; var meteoriteSiliconBaseCost = 1200000;
-var meteoriteActivateMeteoriteBaseCost = 10000; var meteoriteActivateIceBaseCost = 2000000; var meteoriteActivateSiliconBaseCost = 4000000;
+var preciousGemBaseCost = 1; var preciousSilverBaseCost = 1; var preciousGoldBaseCost = 1;
+var preciousActivateGemBaseCost = 1; var preciousActivateSilverBaseCost = 1; var preciousActivateGoldBaseCost = 1;
+var energeticWoodBaseCost =  1; var energeticCharcoalBaseCost = 5000; var energeticUraniumBaseCost = 1;
+var energeticActivateWoodBaseCost = 1; var energeticActivateCharcoalBaseCost = 1; var energeticActivateUraniumBaseCost = 500;
+var techSiliconBaseCost =  1; var techGoldBaseCost = 1; var techGemBaseCost = 1;
+var techActivateSiliconBaseCost = 1; var techActivateGoldBaseCost = 1; var techActivateGemBaseCost = 1;
+var meteoriteMeteoriteBaseCost = 1; var meteoriteIceBaseCost = 1; var meteoriteSiliconBaseCost = 1;
+var meteoriteActivateMeteoriteBaseCost = 1; var meteoriteActivateIceBaseCost = 1; var meteoriteActivateSiliconBaseCost = 4000000;
 
-var commsWonderGoldBaseCost = 6000000; var commsWonderSiliconBaseCost = 10000000; var commsWonderIceBaseCost = 6000000;
-var rocketWonderLunariteBaseCost = 8000000; var rocketWonderTitaniumBaseCost = 6000000; var rocketWonderMetalBaseCost = 12000000;
-var antimatterWonderUraniumBaseCost = 6000000; var antimatterWonderLavaBaseCost = 10000000; var antimatterWonderOilBaseCost = 8000000; var antimatterWonderMethaneBaseCost = 6000000;
-var portalMeteoriteBaseCost = 500000; var portalHeliumBaseCost = 8000000; var portalSiliconBaseCost = 6000000;
+var commsWonderGoldBaseCost = 1; var commsWonderSiliconBaseCost = 1; var commsWonderIceBaseCost = 1;
+var rocketWonderLunariteBaseCost = 1; var rocketWonderTitaniumBaseCost = 1; var rocketWonderMetalBaseCost = 1;
+var antimatterWonderUraniumBaseCost = 1; var antimatterWonderLavaBaseCost = 1; var antimatterWonderOilBaseCost = 1; var antimatterWonderMethaneBaseCost = 1;
+var portalMeteoriteBaseCost = 1; var portalHeliumBaseCost = 1; var portalSiliconBaseCost = 1;
 
-var stargateWonderPlasmaBaseCost = 500000; var stargateWonderSiliconBaseCost = 920000000; var stargateWonderMeteoriteBaseCost = 17000000;
+var stargateWonderPlasmaBaseCost = 1; var stargateWonderSiliconBaseCost = 1; var stargateWonderMeteoriteBaseCost = 1;
 
 var preciousGemCost = preciousGemBaseCost; var preciousSilverCost = preciousSilverBaseCost; var preciousGoldCost = preciousGoldBaseCost;
 var preciousActivateGemCost = preciousActivateGemBaseCost; var preciousActivateSilverCost = preciousActivateSilverBaseCost; var preciousActivateGoldCost = preciousActivateGoldBaseCost;
